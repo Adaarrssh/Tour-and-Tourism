@@ -49,10 +49,15 @@ section {
 }
 
 h2 {
+  color: #f8f8f8;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   text-align: center;
   margin-top: 20px;
 }
-
+p {
+  color: #e0e0e0; /* Softer light gray for body text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
 .destinations {
   display: flex;
   justify-content: space-around;
